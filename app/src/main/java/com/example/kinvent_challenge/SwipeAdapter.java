@@ -21,6 +21,8 @@ public class SwipeAdapter extends FragmentStatePagerAdapter {
                 //EmptyPage emptyPage = new EmptyPage();
                 //return emptyPage;
                 return EmptyPage.newInstance(chef);
+            case 2:
+                return StovePage.newInstance(chef);
             default:
                 return null;
         }
@@ -28,6 +30,6 @@ public class SwipeAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public int getCount() {
-        return 2;
+        return 3;
     }
 }
