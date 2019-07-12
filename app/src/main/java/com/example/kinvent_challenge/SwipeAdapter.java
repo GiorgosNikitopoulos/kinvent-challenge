@@ -23,6 +23,10 @@ public class SwipeAdapter extends FragmentStatePagerAdapter {
                 return EmptyPage.newInstance(chef);
             case 2:
                 return StovePage.newInstance(chef);
+            case 3:
+                return OvenPage.newInstance(chef);
+            case 4:
+                return Counter.newInstance(chef);
             default:
                 return null;
         }
@@ -30,6 +34,6 @@ public class SwipeAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public int getCount() {
-        return 3;
+        return 5;
     }
 }

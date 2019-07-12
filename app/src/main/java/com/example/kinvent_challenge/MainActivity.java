@@ -18,6 +18,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     public static Chef chef = new Chef();
+    public static int pasta_bolognese_made = 0;
+    public static int muffins_made = 0;
+    public static int salads_made = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -1,10 +1,9 @@
 package com.example.kinvent_challenge;
 
-public class Plate extends Tool {
-    String description = "A plate.";
-    public Plate(){
+public class Pasta extends Item {
+    String description = "Italian Pasta";
+    public Pasta(){
         super();
-        //this.dirty();
     }
     public String get_desc(){
         return description;

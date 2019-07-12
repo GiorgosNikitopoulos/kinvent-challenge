@@ -9,6 +9,49 @@
     tools:showIn="@layout/activity_main">
 
     <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="28dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/button34"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="54dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="32dp"
+        android:text="BUY"
+        app:layout_constraintEnd_toStartOf="@+id/textView44"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="54dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="516dp"
+        android:layout_marginEnd="28dp"
+        android:text="BUY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="32dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/button26"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="21dp"
@@ -75,7 +118,7 @@
         android:id="@+id/button12"
         android:layout_width="54dp"
         android:layout_height="40dp"
-        android:layout_marginTop="520dp"
+        android:layout_marginTop="572dp"
         android:layout_marginEnd="32dp"
         android:text="BUY"
         app:layout_constraintEnd_toStartOf="@+id/textView44"
@@ -86,11 +129,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="532dp"
+        android:layout_marginTop="580dp"
         android:layout_marginEnd="28dp"
         android:text="TextView"
         app:layout_constraintEnd_toStartOf="@+id/button34"
-        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

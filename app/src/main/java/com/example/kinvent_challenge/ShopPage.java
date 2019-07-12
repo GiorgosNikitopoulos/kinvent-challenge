@@ -42,6 +42,7 @@ public class ShopPage extends Fragment {
         final TextView sugar_text;
         final TextView tomato_text;
         final TextView vegetable_oil_text;
+        final TextView pasta_text;
 
         Button bacon_button;
         Button onion_button;
@@ -61,6 +62,7 @@ public class ShopPage extends Fragment {
         Button tomato_button;
         Button vegetable_oil_button;
         Button chili_button;
+        Button pasta_button;
 
         View view = inflater.inflate(R.layout.shop, container, false);
 
@@ -194,13 +196,13 @@ public class ShopPage extends Fragment {
             }
         });
 
-        rosemary_text = (TextView) view.findViewById(R.id.textView15);
-        rosemary_text.setText("Olive oil: " + String.valueOf(chef.get_rosemary()));
-        rosemary_button = (Button) view.findViewById(R.id.button15);
+        rosemary_text = (TextView) view.findViewById(R.id.textView29);
+        rosemary_text.setText("Rosemary: " + String.valueOf(chef.get_rosemary()));
+        rosemary_button = (Button) view.findViewById(R.id.button27);
         rosemary_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                rosemary_text.setText("Olive oil: " + String.valueOf(chef.add_rosemary()));
+                rosemary_text.setText("Rosemary: " + String.valueOf(chef.add_rosemary()));
             }
         });
 
@@ -241,6 +243,15 @@ public class ShopPage extends Fragment {
             @Override
             public void onClick(View view) {
                 chili_text.setText("Chili: " + String.valueOf(chef.add_chili()));
+            }
+        });
+        pasta_text = (TextView) view.findViewById(R.id.textView28);
+        pasta_text.setText("Pasta: " + String.valueOf(chef.get_pasta()));
+        pasta_button = (Button) view.findViewById(R.id.button25);
+        pasta_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                pasta_text.setText("Pasta: " + String.valueOf(chef.add_pasta()));
             }
         });
 

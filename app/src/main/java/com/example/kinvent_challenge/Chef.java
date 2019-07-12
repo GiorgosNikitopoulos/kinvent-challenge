@@ -33,6 +33,7 @@ public class Chef implements Serializable {
     Rosemary_Leaf rosemary = new Rosemary_Leaf();
     Sugar sugar = new Sugar();
     Vegetable_Oil vegetable_oil = new Vegetable_Oil();
+    Pasta pasta = new Pasta();
 
     public Chef() {
         //Leave Empty
@@ -322,6 +323,17 @@ public class Chef implements Serializable {
 
     public int sub_vegetable_oil(int ammount){
         return vegetable_oil.sub(ammount);
+    }
+    public int get_pasta(){
+        return pasta.getNumber();
+    }
+
+    public int add_pasta(){
+        return pasta.add(1);
+    }
+
+    public int sub_pasta(int ammount){
+        return pasta.sub(ammount);
     }
     public String get_desc(){
         return chef_name;

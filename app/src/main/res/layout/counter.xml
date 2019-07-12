@@ -9,10 +9,10 @@
         android:layout_height="11dp" />
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/textView63"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Stove"
+        android:text="Counter"
         android:textAlignment="center" />
 
     <Space
@@ -20,20 +20,20 @@
         android:layout_height="38dp" />
 
     <TextView
-        android:id="@+id/textView27"
+        android:id="@+id/textView60"
         android:layout_width="match_parent"
         android:layout_height="106dp"
         android:lines="5"
-        android:text="Ingredients: 1 olive oil, 4 bacon rashes, 2 celery sticks, 2 sprigs of rosemary, 1 beef, 2 tomatoes, 1 chili, 1 cheese, 1 pasta, 2 onions, 2 carrots.\nTools: Saucepan, Colander, Plate, Grater, Knife" />
+        android:text="Ingredients: 1 cucumber, 1 tomato.\nTools: Knife, Plate" />
 
     <Button
-        android:id="@+id/button19"
+        android:id="@+id/button60"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Make pasta bolognese" />
+        android:text="Make salad" />
 
     <TextView
-        android:id="@+id/textView26"
+        android:id="@+id/textView61"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center" />
